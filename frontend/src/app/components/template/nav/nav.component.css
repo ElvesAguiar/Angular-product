@@ -12,3 +12,8 @@
 .nav-list{
     color: white;
 }
+
+.content {
+    padding: 16px;
+    background-color: white;
+}
