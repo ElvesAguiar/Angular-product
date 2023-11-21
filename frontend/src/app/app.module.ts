@@ -21,6 +21,7 @@ import { ProductCreateComponent } from './components/product/product-create/prod
 import { DiretivaDeDestaqueDirective } from './directives/diretiva-de-destaque.directive';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
@@ -45,7 +46,8 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     MatListModule,
     MatCardModule,
     MatButtonModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
